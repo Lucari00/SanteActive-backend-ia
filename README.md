@@ -15,7 +15,7 @@ Then you need to install the requirements of the project.
 
 Launch the server with the following command. It will reload the server if you change the code.
 
-``` uvicorn app.main:app --reload --root-path /path/to/project_root ```
+```uvicorn app.main:app --reload --host 0.0.0.0 --port 8000```
 
 ## Usage
 
